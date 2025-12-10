@@ -1,0 +1,23 @@
+{
+  "sexe_victime": {
+    "Feminin": 1,
+    "Masculin": 2
+  },
+  "victime_type": {
+    "2 Roues Motorisées": 1,
+    "4 Roues": 2,
+    "Autres": 3,
+    "EDP-m": 4,
+    "Piéton": 5,
+    "Vélo": 6
+  },
+  "categorie": {
+    "Conducteur": 1,
+    "Passager": 2,
+    "Piéton": 3
+  },
+  "milieu": {
+    "En-Agg": 1,
+    "Hors-Agg": 2
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "ModelType": "FullyConnectedNetwork",
+    "layers": [
+        500,
+        100
+    ],
+    "dependent_variable": "gravite",
+    "categorical_variables": [
+        "sexe_victime",
+        "victime_type",
+        "categorie",
+        "milieu"
+    ],
+    "continuous_variables": [
+        "annee",
+        "age",
+        "longitude",
+        "latitude"
+    ],
+    "_is_classification": "classification",
+    "cell_sizes": null,
+    "ModelFormat": "NCHW",
+    "MinCellSize": null,
+    "MaxCellSize": null,
+    "SupportsVariableTileSize": false,
+    "ArcGISLearnVersion": "2.4.2",
+    "monitored_valid_loss": Infinity,
+    "ModelFile": "checkpoint_2025-12-04_12-19-44_epoch_0.pth",
+    "LearningRate": "slice('1.0000e-07', '1.0000e-06', None)",
+    "ModelName": "FullyConnectedNetwork",
+    "backend": "pytorch",
+    "ModelParameters": {
+        "backbone": null,
+        "backend": "pytorch"
+    },
+    "resize_to": null,
+    "IsMultispectral": false,
+    "IsImageNetNormalization": true
+}
